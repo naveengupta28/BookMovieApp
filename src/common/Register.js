@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { Input, InputLabel, Button } from "@material-ui/core";
 import { FormControl } from "@material-ui/core";
 import { FormHelperText } from "@material-ui/core";
-import { useHistory } from "react-router";
 import "./Register.css";
 import { makeStyles } from "@material-ui/styles";
 
@@ -198,6 +197,7 @@ export default function Register(props) {
         </FormHelperText>
       </FormControl>
       <br />
+      <br></br>
 
       {response === 200 ? (
         <span>Registration Sucessful.Please Login!</span>

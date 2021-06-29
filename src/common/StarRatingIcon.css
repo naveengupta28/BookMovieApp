@@ -1,0 +1,12 @@
+
+.box {
+  width: fit-content;
+}
+
+
+.flex {
+  display: flex;
+}
+.cursor-pointer {
+  cursor: pointer;
+}

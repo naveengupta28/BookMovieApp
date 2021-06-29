@@ -1,10 +1,4 @@
-import {
-  Card,
-  Grid,
-  GridList,
-  GridListTile,
-  GridListTileBar,
-} from "@material-ui/core";
+
 import React, { useState } from "react";
 import "./Grid.css";
 import NewReleasedContent from "./NewReleasedContent";

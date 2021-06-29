@@ -21,8 +21,9 @@ export default function Login() {
   const classes = useStyles();
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
-  const [isLoggedIn, setLoggedIn] = useState(false);
+  //  const [isLoggedIn, setLoggedIn] = useState(false);
   const history = useHistory();
+
 
   const login = async () => {
     console.log(email, password);
@@ -45,7 +46,7 @@ export default function Login() {
 
     result = await result.json();
     localStorage.setItem("user-info", JSON.stringify(result));
-    setLoggedIn(true);
+    // setLoggedIn(true);
     history.push("/");
   };
   return (

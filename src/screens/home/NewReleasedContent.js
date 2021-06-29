@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { GridList, GridListTile, GridListTileBar } from "@material-ui/core";
-import { BrowserRouter, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import "./Grid.css";
 function NewReleasedContent({ filteredData }) {
   const [newMovie, setNewMovie] = useState([]);

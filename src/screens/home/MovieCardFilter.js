@@ -1,25 +1,19 @@
 import React, { useEffect, useState } from "react";
 import {
   Card,
-  CardHeader,
   CardContent,
   FormControl,
   InputLabel,
   Select,
-  Menu,
   MenuItem,
   Checkbox,
-  ListItemText,
   FormControlLabel,
-  FormLabel,
   Chip,
   TextField,
   Button,
 } from "@material-ui/core";
-import Register from "../../common/Register";
 import Typography from "@material-ui/core/Typography";
 import Input from "@material-ui/core/Input";
-import { blue } from "@material-ui/core/colors";
 import "./MovieCardFilter.css";
 import { makeStyles } from "@material-ui/core/styles";
 
